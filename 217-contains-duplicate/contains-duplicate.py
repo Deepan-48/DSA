@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
+        """
         freq={}
         for num in nums:
             if num in freq:
@@ -16,9 +17,9 @@ class Solution(object):
         return False
 
         """
-        check=set()
+        check=set(nums)
         if len(check)==len(nums):
             return False
         else:
             return True
-        """
+        
