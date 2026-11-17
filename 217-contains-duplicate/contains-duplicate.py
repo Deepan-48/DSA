@@ -14,4 +14,11 @@ class Solution(object):
             if freq[num]>1:
                 return True
         return False
-        
+
+        """
+        check=set()
+        if len(check)==len(nums):
+            return False
+        else:
+            return True
+        """
