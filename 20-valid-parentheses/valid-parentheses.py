@@ -36,4 +36,4 @@ class Solution(object):
                     return False
             else:
                 stack.append(ch)
-        return not stack
+        return len(stack)==0
